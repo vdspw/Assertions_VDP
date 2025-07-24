@@ -1,3 +1,4 @@
+// CONDITION : Signal A and Signal B cannot be high at the same instant of time .
 
 module simple_design_tb ;
   //testbench signals
