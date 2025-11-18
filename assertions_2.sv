@@ -46,7 +46,7 @@ module tb;
 
     //Assertion in SVA
     initial assert property ( @(posedge clk) s_eventually start) 
-        $info("SVA ASSERTION PASSED AT %0t", $time);
+        $display("SVA ASSERTION PASSED AT %0t", $time);
        
     
     initial begin
