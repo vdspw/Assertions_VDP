@@ -1,4 +1,5 @@
 /*a and b must be equal to 0[zero] on all postive edge of the clk. Only boolean operators are allowed.*/
+/* checked on the poseedge of the clk */
 
 module tb;
   reg a = 0, b = 1;
