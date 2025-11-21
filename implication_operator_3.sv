@@ -37,7 +37,7 @@ module tb;
   end
  
 ///Add your code here
-  A1:assert property(@(posedge clk) !a |=> !b) $info("SUCCESS at %0t",$time);else
+  A1:assert property(@(posedge clk) !b |=> !a) $info("SUCCESS at %0t",$time);else
     $error("FAILURE at %0t",$time);
                               
 endmodule
