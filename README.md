@@ -7,3 +7,4 @@ System verilog assertions
 6. Assertions in RTL designs to check the operating conditions.
 7. Local Varibales -- demo (used in complex designs).
 8. Linear Temporal Logical Operators [eventually , until , nexttime, followed- by].
+9. Assertions on FSM's
